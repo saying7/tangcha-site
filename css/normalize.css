@@ -1,0 +1,76 @@
+/* 모든 요소에 적용 */
+* {
+    margin: 0;
+    padding: 0;
+    /* 선택적으로 box-sizing을 포함하여 레이아웃 계산을 쉽게 함 */
+    box-sizing: border-box; 
+}
+
+/* 세부 요소들이 HTML5 사양에 맞게 '블록' 요소로 표시되도록 보장 */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+
+html {
+  /* 16px의 62.5%는 10px이 됩니다. (1rem = 10px) */
+  font-size: 62.5%;
+  -webkit-text-size-adjust: 100%; /* Safari에서 텍스트 크기 자동 조정 방지 */
+}
+
+body {
+  /* body에서는 원하는 기본 텍스트 크기를 다시 설정합니다. */
+  /* 1.6rem = 16px */
+  font-size: 1.6rem; 
+  line-height: 1.5;
+}
+
+/* 제목(H1)의 글꼴 크기와 마진을 일관성 있게 조정 */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* 폼 요소의 마진을 제거하고, 폰트 상속을 보장 */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+/* Firefox에서 버튼과 입력 필드의 오버플로우 문제 수정 */
+button {
+  overflow: visible;
+}
+
+/* SVG 요소에 오버플로우를 숨김 처리 */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* 이미지의 브라우저 간 정렬 문제 해결 */
+img {
+  border-style: none;
+}
+
+details > summary::-webkit-details-marker {
+    display: none;
+    list-style: none; /* 목록 스타일을 없앱니다. */
+}

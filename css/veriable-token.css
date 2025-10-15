@@ -1,0 +1,82 @@
+@import 'css/veriable.css';
+
+:root {
+/* 토큰컬러 */
+--body-background-color: #121212;
+--line-base-color: var(--Gray-200-color);
+--primary-color: var(--Blue-600-color);
+--primary-color-hover: var(--Blue-700-color);
+--emphasis-color: var(--Gray-950-color);
+--emphasis-color-hover: var(--Gray-800-color);
+--btn-color-disabled: var(--Gray-400-color);
+
+/* font */
+--font-head-color: var(--Gray-0-color);
+--font-body-color: var(--Gray-0-color);
+--font-body-1st-color: var(--Gray-600-color);
+--font-body-2nd-color: var(--Gray-400-color);
+--font-placeholder-color: var(--Gray-400-color);
+--font-size-2xlarge: 2.4rem;
+--font-size-xlarge: 2.0rem;
+--font-size-large: 1.8rem;
+--font-size-medium: 1.6rem;
+--font-size-small: 1.4rem;
+--font-size-label: var(--font-size-small);
+
+/* height */
+--form-height-xlarge: 6.4rem;
+--form-height-large: 5.6rem;
+--form-height-medium: 4.8rem;
+--form-height-small: 4.0rem;
+
+/* radius */
+--toast-radius: var(--form-radius-small);
+--accordion-radius: var(--form-radius-medium);
+--form-radius-xlarge: 1rem;
+--form-radius-large: 0.8rem;
+--form-radius-medium: 0.6rem;
+--form-radius-small: 0.4rem;
+--form-radius-circle: 999rem;
+
+/* form */
+--form-border-color: var(--Gray-200-color);
+--form-bg-color-disabled: var(--Gray-100-color);
+
+/* button */
+--btn-border-gray: var(--Gray-300-color);
+--btn-border-gray-hover: var(--Gray-400-color);
+--btn-border-primary: var(--primary-color);
+--btn-border-ghost: white;
+
+--btn-bg-color-white: white;
+--btn-bg-color-primary: var(--Blue-600-color);
+--btn-bg-color-emphais: var(--Gray-950-color);
+--btn-bg-color-disabled: var(--Gray-300-color);
+--btn-bg-color-ghost: var(--Gray-950-color) 5%;
+
+--btn-font-weight: 600;
+
+--btn-font-color-white: white;
+--btn-font-color-primary: var(--primary-color);
+--btn-font-color-black: var(--Gray-900-color);
+
+--btn-height-xlarge: 6.4rem;
+--btn-height-large: 5.6rem;
+--btn-height-medium: 4.8rem;
+--btn-height-small: 4.0rem;
+
+--btn-width-xlarge: 6.4rem;
+--btn-width-large: 5.6rem;
+--btn-width-medium: 4.8rem;
+--btn-width-small: 4.0rem;
+
+--btn-padding-xlarge: 0 3.2rem;
+--btn-padding-large: 0 2.4rem;
+--btn-padding-medium: 0 2.0rem;
+--btn-padding-small: 0 1.6rem;
+
+--btn-icon-size-xlarge: 2.4rem;
+--btn-icon-size-large: 2.0rem;
+--btn-icon-size-medium: 1.8rem;
+--btn-icon-size-small: 1.6rem;
+}

@@ -1,0 +1,13 @@
+.ic-plus {display: inline-block; width: 1.6rem; height: 1.6rem; background-image: url('../images/icon/plus.svg'); background-repeat: no-repeat; background-size: contain; /* 크기에 맞게 조정 */}
+.ic-minus {display: inline-block; width: 1.6rem; height: 1.6rem; background-image: url('../images/icon/minus.svg'); background-repeat: no-repeat; background-size: contain;}
+.ic-close {display: inline-block; width: 1.6rem; height: 1.6rem; background-image: url('../images/icon/close.svg'); background-repeat: no-repeat; background-size: contain;}
+.ic-close-w {display: inline-block; width: 1.6rem; height: 1.6rem; background-image: url('../images/icon/close-w.svg'); background-repeat: no-repeat; background-size: contain;}
+.ic-warning {display: inline-block; width: 1.6rem; height: 1.6rem; background-image: url('../images/icon/warning.svg'); background-repeat: no-repeat; background-size: contain;}
+.ic-error {display: inline-block; width: 1.6rem; height: 1.6rem; background-image: url('../images/icon/error.svg'); background-repeat: no-repeat; background-size: contain;}
+.ic-info-w {display: inline-block; width: 1.6rem; height: 1.6rem; background-image: url('../images/icon/info-w.svg'); background-repeat: no-repeat; background-size: contain;}
+.ic-info {display: inline-block; width: 1.6rem; height: 1.6rem; background-image: url('../images/icon/info.svg'); background-repeat: no-repeat; background-size: contain;}
+.ic-success {display: inline-block; width: 1.6rem; height: 1.6rem; background-image: url('../images/icon/success.svg'); background-repeat: no-repeat; background-size: contain;}
+.ic-heart_filled_blue {display: inline-block; width: 100%; height: 100%; background-image: url('../images/icon/heart_filled_blue.svg'); background-repeat: no-repeat; background-size: contain;}
+.ic-heart_filled_w {display: inline-block; width: 100%; height: 100%; background-image: url('../images/icon/heart_filled_w.svg'); background-repeat: no-repeat; background-size: contain;}
+.ic-search {display: inline-block; width: 1.6rem; height: 1.6rem; background-image: url('../images/icon/search.svg'); background-repeat: no-repeat; background-size: contain;}
+.ic-back-w {display: inline-block; width: 2.4rem; height: 2.4rem; background-image: url('../images/icon/back-w.svg'); background-repeat: no-repeat; background-size: contain;}
