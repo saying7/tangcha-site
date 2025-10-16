@@ -14,7 +14,7 @@
 /* accordion */
 .accordion {display: flex; flex-direction: column; gap: 1rem;}
 .accordion details {display: flex; flex-direction: column; width: 83.2rem; border-radius: var(--accordion-radius); border: 1px solid var(--line-base-color);}
-.accordion details[open] { border: 1px solid var(--primary-color);}
+.accordion details[open] {border: 1px solid var(--primary-color);}
 .accordion details summary > div {display: flex; align-items: center; gap: 0.8rem; padding: 1.6rem;}
 .accordion details summary > div > p {flex-grow: 1; color: var(--font-head-color); font-weight: 500;}
 .accordion details summary > div::after {content: ""; width: 2.4rem; height: 2.4rem; background-image: url(../images/icon/plus.svg); background-repeat: no-repeat; background-position: center;}

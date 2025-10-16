@@ -11,3 +11,5 @@
 .ic-heart_filled_w {display: inline-block; width: 100%; height: 100%; background-image: url('../images/icon/heart_filled_w.svg'); background-repeat: no-repeat; background-size: contain;}
 .ic-search {display: inline-block; width: 1.6rem; height: 1.6rem; background-image: url('../images/icon/search.svg'); background-repeat: no-repeat; background-size: contain;}
 .ic-back-w {display: inline-block; width: 2.4rem; height: 2.4rem; background-image: url('../images/icon/back-w.svg'); background-repeat: no-repeat; background-size: contain;}
+.ic-menu {display: inline-block; width: 2.4rem; height: 2.4rem; background-image: url('../images/icon/menu.svg'); background-repeat: no-repeat; background-size: contain;}
+.ic-menu-w {display: inline-block; width: 2.4rem; height: 2.4rem; background-image: url('../images/icon/menu-w.svg'); background-repeat: no-repeat; background-size: contain;}

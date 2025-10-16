@@ -30,26 +30,13 @@ html {
   -webkit-text-size-adjust: 100%; /* Safari에서 텍스트 크기 자동 조정 방지 */
 }
 
-body {
-  /* body에서는 원하는 기본 텍스트 크기를 다시 설정합니다. */
-  /* 1.6rem = 16px */
-  font-size: 1.6rem; 
-  line-height: 1.5;
-}
-
-/* 제목(H1)의 글꼴 크기와 마진을 일관성 있게 조정 */
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
-
 /* 폼 요소의 마진을 제거하고, 폰트 상속을 보장 */
 button,
 input,
 optgroup,
 select,
 textarea {
-  font-family: inherit;
+  /* font-family: inherit; */
   font-size: 100%;
   line-height: 1.15;
   margin: 0;
@@ -74,3 +61,8 @@ details > summary::-webkit-details-marker {
     display: none;
     list-style: none; /* 목록 스타일을 없앱니다. */
 }
+
+/* 기본 스타일 제거 */
+button {all: unset;}
+input {appearance: none; -webkit-appearance: none; /* Safari 등 웹킷 기반 브라우저 지원 */ -moz-appearance: none; /* Firefox 지원 */}
+ul, li {list-style: none;}

@@ -11,25 +11,40 @@
   <link rel="stylesheet" href="css/veriable-token.css">
   <link rel="stylesheet" href="css/icon.css">
   <link rel="stylesheet" href="css/form.css">
+  <script src="javascript.js" defer></script>
 </head>
 <body>
   <header>
     <div class="logo"><img src="/images/common/logo.svg" alt="김군디자인-logo"></div>
     <nav>
-      <ul>
-        <li>Portfolio</li>
-        <li>Projects</li>
-        <li>Skill inventory</li>
-        <li>About me</li>
-      </ul>
+      <div class="menu">
+        <ul>
+          <li><a href="#Portfolio">Portfolio</a></li>
+          <li><a href="#Projects">Projects</a></li>
+          <li><a href="#Skill_inventory">Skill inventory</a></li>
+          <li><a href="#About_me">About me</a></li>
+        </ul>
+      </div>
     </nav>
+    <details class="menu-toggle">
+      <summary>
+        <i class="ic-menu-w"></i>
+      </summary>
+      <ul class="mobile-menu">
+        <li><a href="#Portfolio">Portfolio</a></li>
+        <li><a href="#Projects">Projects</a></li>
+        <li><a href="#Skill_inventory">Skill inventory</a></li>
+        <li><a href="#About_me">About me</a></li>
+      </ul>
+    </details>
   </header>
-
+  
+  
   <main>
 
     <!-- portfolio list start -->
     <section>
-      <h1 class="flex-center">Portfolio</h1>
+      <h1 class="flex-center" id="Portfolio">Portfolio</h1>
       <ul class="thumb-list">
         <li class="thumb-item">
           <a href="/detail/detail-8.html">
@@ -39,7 +54,7 @@
                 <p class="title">홈앤쇼핑 Mobile Redesign</p>
                 <p class="discription">홈쇼핑 채널을 소유하고 있는 종합쇼핑몰 ‘홈앤쇼핑’의 Mobile App 메인페이지 리디자인입니다.</p>
               </div>
-            <p class="date">작업시기 22022. 9</p>
+            <p class="date">작업시기 <span>22022. 9</span></p>
           </div>
           </a>
         </li>
@@ -51,7 +66,7 @@
                 <p class="title">홈앤쇼핑 PC Redesign</p>
                 <p class="discription">종합쇼핑몰 ‘홈앤쇼핑’의 PC 메인페이지를 재설계한 리디자인입니다.</p>
               </div>
-              <p class="date">작업시기 22022. 9</p>
+              <p class="date">작업시기<span>22022. 9</span></p>
             </div>
           </a>
         </li>
@@ -63,7 +78,7 @@
                 <p class="title">홈앤쇼핑 PC, 상품상세 UI 개선</p>
                 <p class="discription">운영중인 서비스의 PC 상세페이지 리뉴얼 작업이었습니다.</p>
               </div>
-              <p class="date">근무기간 2021. 3 ~ 2022. 8</p>
+              <p class="date">근무기간<span>2021. 3 ~ 2022. 8</span></p>
             </div>
           </a>
         </li>
@@ -75,7 +90,7 @@
                 <p class="title">홈앤쇼핑 Mobile, 상품상세 UI 개선</p>
                 <p class="discription">Mobile 전시영역 개선 프로젝트에서 상세페이지 리뉴얼 작업이었습니다.</p>
               </div>
-              <p class="date">근무기간 2021. 3 ~ 2022. 8</p>
+              <p class="date">근무기간<span>2021. 3 ~ 2022. 8</span></p>
             </div>
           </a>
         </li>
@@ -87,7 +102,7 @@
                 <p class="title">롯데면세점 Mobile Redeign</p>
                 <p class="discription">‘롯데면서점’의 Mobile APP 리디자인입니다.</p>
               </div>
-              <p class="date">작업시기 2021. 2</p>
+              <p class="date">작업시기<span>2021. 2</span></p>
             </div>
           </a>
         </li>
@@ -99,7 +114,7 @@
                 <p class="title">유진투자증권 Mobile Web 홈페이지</p>
                 <p class="discription">Mobile 홈페이지, 비대면개설 앱, 체크카드 안내 랜딩페이지 작업입니다.</p>
               </div>
-              <p class="date">근무기간 2018. 6 ~ 2018. 8</p>
+              <p class="date">근무기간<span>2018. 6 ~ 2018. 8</span></p>
             </div>
           </a>
         </li>
@@ -111,7 +126,7 @@
                 <p class="title">KT Membership APP 디자인 시안</p>
                 <p class="discription">기존 멤버십 포인트에 K-Pay  등의 기능을 추가하는 제안시안 이었습니다.</p>
               </div>
-              <p class="date">근무기간 2018. 3 ~ 2018. 4</p>
+              <p class="date">근무기간<span>2018. 3 ~ 2018. 4</span></p>
             </div>
           </a>
         </li>
@@ -123,7 +138,7 @@
                 <p class="title">iLotte (인도네시아 커머스) PC Redesign</p>
                 <p class="discription">프로젝트 일부 내용으로 재구성한 Redesign 입니다.</p>
               </div>
-              <p class="date">근무기간 2017. 2 ~ 2017. 8</p>
+              <p class="date">근무기간<span>2017. 2 ~ 2017. 8</span></p>
             </div>
           </a>
         </li>
@@ -132,7 +147,9 @@
 
 
 
-
+    <footer>
+      <p>&copy; 2025 김군디자인.All rights reserved.</p>
+    </footer>
   </main>
 
 

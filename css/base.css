@@ -45,6 +45,7 @@ body {
   /* 62.5% 설정했으므로 1.6rem은 16px입니다. */
   font-size: 1.6rem; 
   font-weight: 400;
+  line-height: 1.5;
   color: var(--font-body-color); /* 기본 텍스트 색상 */
 }
 
@@ -68,7 +69,3 @@ img, picture, video {
 
 a, button, summary, .clickable-item, .check {cursor: pointer;}
 
-/* 기본 스타일 제거 */
-button {all: unset;}
-input {appearance: none; -webkit-appearance: none; /* Safari 등 웹킷 기반 브라우저 지원 */ -moz-appearance: none; /* Firefox 지원 */}
-ul, li {list-style: none;}
