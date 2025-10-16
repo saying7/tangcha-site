@@ -78,18 +78,30 @@ footer p {padding: 2.4rem 0; color: var(--font-body-1st-color); max-width: 1400p
   .header-detail .title-container {display: flex; flex-direction: column; align-items: start; gap: 1.2rem; width: 100%; max-width: 1400px; margin-left: auto; margin-right: auto;}
   .header-detail .title-container .title-row {display: flex; align-items: center; gap: 3.2rem;}
   .header-detail .title-container p {align-self: stretch; font-size: 1.6rem; font-weight: 400; color: var(--font-body-2nd-color);}
-  .header-detail .title-container .project-info {display: flex; align-items: center; gap: 3.2rem; padding-top: 1.6rem;}
-  .header-detail .title-container .project-info .line-ver {width: 0; height: 1.9rem; border-left: 1px solid #343434;}
+  
+  /* 상세 반응형 대응 */
+  .header-detail .title-container .project-info {display: flex; flex-direction: column; align-items: flex-start; gap: 0.4rem; padding-top: 1.6rem;}
   .header-detail .title-container .project-info .item {display: flex; align-items: center; gap: 1.2rem;}
   .header-detail .title-container .project-info .item span {color: var(--font-body-1st-color);}
   .header-detail .title-container .project-info .item i {color: #373232;}
   .header-detail .title-container .project-info .item img {width: 3.2rem; aspect-ratio: 1/1; border-radius: 50%;}
+  
+  .category {display: none;}
+  
+  @media screen and (min-width: 786px)  {
+    .header-detail .title-container .project-info {display: flex; flex-direction: row; align-items: center; gap: 3.2rem; padding-top: 1.6rem;}
+    .header-detail .title-container .project-info .line-ver {width: 0; height: 1.9rem; border-left: 1px solid #343434;}
+    .category {display: flex; padding: 8px 14px; align-items: center; gap: 0.8rem; border-radius: var(--form-radius-circle); border: 1px solid rgba(255, 255, 255, 0.25);}
+  }
 
-   /* 상세페이지 */
-  .category {display: flex; padding: 8px 14px; align-items: center; gap: 0.8rem; border-radius: var(--form-radius-circle); border: 1px solid rgba(255, 255, 255, 0.25);}
+
+  /* 상세페이지 카테고리 */
   .category .dot-demo {display: inline-block; width: 10px; aspect-ratio: 1/1; background-color: #EF481B; border-radius: 50%;}
   .category .dot-try {display: inline-block; width: 10px; aspect-ratio: 1/1; background-color: #FDC90A; border-radius: 50%;}
   .category .dot-dev {display: inline-block; width: 10px; aspect-ratio: 1/1; background-color: #6637EF; border-radius: 50%;}
   .category .dot-open {display: inline-block; width: 10px; aspect-ratio: 1/1; background-color: #41D190; border-radius: 50%;}
   
+  /* 상세페이지 컨텐츠 센터정렬 */
   .contents-list ul {display: block; margin-left: auto; margin-right: auto; border-radius: 1.6rem; overflow: hidden;}
+  
+  
