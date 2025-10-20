@@ -47,6 +47,7 @@ section {display: flex; flex-direction: column; gap: 3.2rem; padding-bottom: 4re
 h1 {text-align: center;}
 
 footer p {padding: 2.4rem 0; color: var(--font-body-1st-color); max-width: 1400px; margin-left: auto; margin-right: auto;}
+footer .main-footer-p {padding: 2.4rem 0; color: var(--font-body-1st-color); max-width: 1400px; margin-right: auto;}
 
 
 /* portfolio - list */
