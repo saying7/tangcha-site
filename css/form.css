@@ -27,7 +27,7 @@
 .tost-base a {padding-left: 0.6rem;}
 
 /* tost-success, info, warning, error */
-.tost-success {display: flex; width: 40rem; height: 4.2rem; padding: 0 1.2rem; gap: 0.6rem; align-items: center; order-radius: var(--toast-radius, 4px); background: var(--Green-50-color);}
+.tost-success {display: flex; width: 40rem; height: 4.2rem; padding: 0 1.2rem; gap: 0.6rem; align-items: center; border-radius: var(--toast-radius, 4px); background: var(--Green-50-color);}
 .tost-info {display: flex; width: 40rem; height: 4.2rem; padding: 0 1.2rem; gap: 0.6rem; align-items: center; border-radius: var(--toast-radius, 4px); background: var(--Blue-50-color);}
 .tost-warning {display: flex; width: 40rem; height: 4.2rem; padding: 0 1.2rem; gap: 0.6rem; align-items: center; border-radius: var(--toast-radius, 4px); background: var(--Yellow-50-color);}
 .tost-error {display: flex; width: 40rem; height: 4.2rem; padding: 0 1.2rem; gap: 0.6rem; align-items: center; border-radius: var(--toast-radius, 4px); background: var(--Red-50-color);}

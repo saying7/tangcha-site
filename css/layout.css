@@ -14,7 +14,14 @@
 .module .col-16 {padding-bottom: 1.6rem;}
 .module .col-16 .row-8 {display: flex; align-items: start; gap: 0.8rem;}
 
-.row-32 {display: flex; align-items: center; gap: 3.2rem; width: 40rem;}
+
+
+.row-48 {display: flex; align-items: center; gap: 4.8rem;}
+.row-32 {display: flex; align-items: center; gap: 3.2rem;}
+.row-16 {display: flex; align-items: center; gap: 1.6rem;}
+.row-12 {display: flex; align-items: center; gap: 1.2rem;}
+.row-8 {display: flex; align-items: center; gap: .8rem;}
+.row-4 {display: flex; align-items: center; gap: .4rem;}
 
 .col-48 {display: flex; flex-direction: column; gap: 4.8rem;}
 .col-32 {display: flex; flex-direction: column; gap: 3.2rem;}
@@ -70,7 +77,61 @@ footer .main-footer-p {padding: 2.4rem 0; color: var(--font-body-1st-color); max
   .thumb-item a .discription {font-size: var(--font-size-medium); font-weight: 400; color: var(--font-body-1st-color);}
   .thumb-item a .date {font-size: var(--font-size-small); font-weight: 400; color: var(--font-body-2nd-color);}
   .thumb-item a .date span {padding-left: 1.6rem;}
+
+
+  /* project list */
+  .project-list {display: flex; flex-direction: column; gap: 4.8rem; padding: 1.2rem 0; }
+  @media screen and (min-width: 960px) {
+    .project-list {display: flex; flex-direction: column; gap: 4.8rem; padding: 6.4rem; border-radius: 2.4rem; background-color: #1C1C1C;}
+  }
+
+  .project-item {display: flex; flex-direction: column;}
+  .project-item summary {display: flex; justify-content: flex-start; align-items: flex-start; gap: 1rem; font-size: 2.8rem; font-weight: 400;}
+  .project-item summary::after {content: ""; margin-top: 1rem; width: 2.4rem; height: 2.4rem; background-image: url('../images/icon/arrow-down-w.svg'); background-repeat: no-repeat; background-size: contain;}
+  .project-item[open] summary::after {content: ""; width: 2.4rem; height: 2.4rem; background-image: url('../images/icon/arrow-up-w.svg'); background-repeat: no-repeat; background-size: contain;}
+  .project-item summary p {width: 100%;}
+  .project-item summary span {display: inline-block; width: 4.4rem; font-size: 2.8rem; font-weight: 800;}
+
+  .project-item .open {display: flex; flex-direction: column; gap: 1.6rem; padding-top: 1.6rem;}
+  @media screen and (min-width: 960px) {
+    .project-item .open {display: flex; flex-direction: row; gap: 3.2rem; padding-top: 1.6rem;}
+  }
+  @media screen and (min-width: 1600px) {
+    .project-item .open {display: flex; flex-direction: column; gap: 1.2rem;}
+  }
+
+  .project-item .open p {display: flex; flex-grow: 1; line-height: 2;}
+
+  .project-item .open ul {display: flex; flex-direction: column; gap: 0.4rem; width: 27.2rem; padding-left: 3.2rem; border-left: 1px solid #373232;}
+  @media screen and (min-width: 1600px) {
+    .project-item .open ul {display: flex; flex-direction: row; gap: 3.2rem; width: auto; padding-left: 0; border-left: 0} }
+
+  .project-item .open ul li {display: flex; align-items: center; gap: 1.2rem; width: 24rem;}
+  @media screen and (min-width: 1600px) {
+    .project-item .open ul li {display: flex; align-items: center; gap: 1.2rem; width: auto;}
+    .project-item .open ul li::after {content: ""; width: 1px; height: 1.9rem; margin-left: 1.6rem; background-color: #343434;}
+    .project-item .open ul li:last-child::after {content: ""; width: 0;}
+  }
   
+  .project-item .open ul li span {display: inline-block; width: 5.6rem; color: var(--font-body-2nd-color);}
+  @media screen and (min-width: 1600px) {
+    .project-item .open ul li span {width: auto;}
+  }
+
+  .project-item .open ul li i {color: #373232;}
+  .project-item .open ul li .data {display: inline-block;}
+
+
+
+
+
+
+
+
+
+
+
+
   
   /* 상세페이지 - header */
   .header-detail {display: flex; flex-direction: column; align-items: start; gap: 3.2rem;}
@@ -94,7 +155,6 @@ footer .main-footer-p {padding: 2.4rem 0; color: var(--font-body-1st-color); max
     .header-detail .title-container .project-info .line-ver {width: 0; height: 1.9rem; border-left: 1px solid #343434;}
     .category {display: flex; padding: 8px 14px; align-items: center; gap: 0.8rem; border-radius: var(--form-radius-circle); border: 1px solid rgba(255, 255, 255, 0.25);}
   }
-
 
   /* 상세페이지 카테고리 */
   .category .dot-demo {display: inline-block; width: 10px; aspect-ratio: 1/1; background-color: #EF481B; border-radius: 50%;}
