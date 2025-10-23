@@ -1,3 +1,4 @@
+// 프로젝트 리스트에서 다른 항목 클릭시 오픈된 항목을 닫아주는 스크립트
 document.addEventListener('DOMContentLoaded', () => {
     // 1. 모든 <details> 항목을 선택합니다.
     const details = document.querySelectorAll('details');
@@ -18,4 +19,24 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
+});
+
+
+// 모바일 메뉴가 오픈 되었을 때, 메뉴 선택시 메뉴가 닫히는 스크립트
+document.addEventListener('DOMContentLoaded', () => {
+    // 1. 모든 모바일 메뉴 링크를 선택합니다.
+    const mobileLinks = document.querySelectorAll('.mobile-menu a');
+    
+    // 2. 닫아야 할 <details> 요소를 선택합니다.
+    const menuToggle = document.querySelector('.menu-toggle');
+
+    if (mobileLinks.length > 0 && menuToggle) {
+        // 3. 각 링크에 클릭 이벤트 리스너를 추가합니다.
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                // 4. 링크가 클릭되면 <details>의 open 속성을 false로 설정하여 닫습니다.
+                menuToggle.open = false;
+            });
+        });
+    }
 });
