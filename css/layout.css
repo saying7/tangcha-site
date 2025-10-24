@@ -86,7 +86,8 @@ footer .main-footer-p {padding: 2.4rem 0; color: var(--font-body-1st-color); max
   }
 
   .project-item {display: flex; flex-direction: column;}
-  .project-item summary {display: flex; justify-content: flex-start; align-items: flex-start; gap: 1rem; font-size: 2.2rem; font-weight: 400;}
+  .project-item summary {display: flex; justify-content: flex-start; align-items: flex-start; gap: 1rem; font-size: 2.2rem; font-weight: 400; color: var(--font-body-2nd-color);}
+  .project-item[open] summary {color: white;}
   .project-item summary::after {content: ""; margin-top: 1rem; width: 2rem; height: 2.4rem; background-image: url('../images/icon/arrow-down-w.svg'); background-repeat: no-repeat; background-size: contain;}
   .project-item[open] summary::after {content: ""; width: 2.4rem; height: 2.4rem; background-image: url('../images/icon/arrow-up-w.svg'); background-repeat: no-repeat; background-size: contain;}
   .project-item summary p {width: 100%;}
