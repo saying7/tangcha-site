@@ -93,12 +93,12 @@ footer .main-footer-p {padding: 2.4rem 0; color: var(--font-body-1st-color); max
   .project-item summary p {width: 100%;}
   .project-item summary span {display: inline-block; width: 4.4rem; font-size: 2.2rem; font-weight: 800;}
 
-  .project-item .open {display: flex; flex-direction: column; gap: 1.6rem; padding: 1.6rem 5rem;}
+  .project-item .open {display: flex; flex-direction: column; gap: 1.6rem; padding: 1.6rem 5.2rem;}
   @media screen and (min-width: 960px) {
     .project-item .open {display: flex; flex-direction: row; gap: 3.2rem;}
   }
   @media screen and (min-width: 1600px) {
-    .project-item .open {display: flex; flex-direction: column; gap: 1.6rem; padding: 0 5rem;}
+    .project-item .open {display: flex; flex-direction: column; gap: 1.6rem; padding: 0 5.2rem;}
   }
 
   .project-item .open p {display: flex; flex-grow: 1; line-height: 2;}
